@@ -263,7 +263,7 @@ body {
   height: 50px;
   transform: translateX(10%);
   border-radius: 50%;
-  background-image: url("images/icons/plus.svg");
+  background-image: url("../images/icons/plus.svg");
   background-repeat: no-repeat;
   background-position: center;
   border: 2px solid #000000;
@@ -281,7 +281,7 @@ body {
 }
 
 .button-catalog-li:focus-within .button-catalog::after {
-  background-image: url("images/icons/minus.svg");
+  background-image: url("../images/icons/minus.svg");
   filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
 }
 
@@ -412,7 +412,7 @@ body {
 }
 
 .cart-wrap-product::before {
-  background-image: url("images/icons/close.svg");
+  background-image: url("../images/icons/close.svg");
   width: 10px;
   height: 10px;
   content: "";
@@ -481,7 +481,7 @@ body {
 .search-elements::before {
   content: "";
   position: absolute;
-  background-image: url("images/icons/search.svg");
+  background-image: url("../images/icons/search.svg");
   background-repeat: no-repeat;
   background-size: 16px 16px;
   width: 16px;
@@ -778,7 +778,7 @@ body {
 .btn-control {
   width: 20px;
   height: 60px;
-  background-image: url("images/icons/arrow.svg");
+  background-image: url("../images/icons/arrow.svg");
   background-repeat: no-repeat;
   background-size: 20px 60px;
   cursor: pointer;
@@ -1037,7 +1037,7 @@ body {
   position: sticky;
   top: 0;
   right: 0;
-  background-image: url("images/icons/information.svg");
+  background-image: url("../images/icons/information.svg");
   background-repeat: no-repeat;
   background-size: 40px 40px;
   background-position: center;
@@ -1065,7 +1065,7 @@ body {
   background-color: #ffe17f;
   width: 125px;
   height: 100px;
-  background-image: url("images/delivery-car.svg");
+  background-image: url("../images/delivery-car.svg");
   background-size: 47px 31px;
   background-repeat: no-repeat;
   background-position: center;
@@ -1327,7 +1327,7 @@ body {
 .mailing-free::before {
   content: "";
   background-repeat: no-repeat;
-  background-image: url("images/icons/free-tick.svg");
+  background-image: url("../images/icons/free-tick.svg");
   width: 14px;
   height: 14px;
   position: absolute;
@@ -1587,7 +1587,7 @@ body {
 
 .btn-close {
   position: absolute;
-  background-image: url("images/icons/close-btn.svg");
+  background-image: url("../images/icons/close-btn.svg");
   width: 26px;
   height: 26px;
   content: "";
@@ -1641,7 +1641,7 @@ body {
 .delivery-form-wrap:nth-of-type(1) .delivery-form-inner:first-child::after {
   position: absolute;
   content: "";
-  background-image: url("images/icons/user.svg");
+  background-image: url("../images/icons/user.svg");
   background-repeat: no-repeat;
   width: 13px;
   height: 12px;
@@ -1652,7 +1652,7 @@ body {
 .delivery-form-wrap:nth-of-type(1) .delivery-form-inner:nth-child(2)::after {
   position: absolute;
   content: "";
-  background-image: url("images/icons/mail.svg");
+  background-image: url("../images/icons/mail.svg");
   background-repeat: no-repeat;
   width: 15px;
   height: 12px;
@@ -1721,13 +1721,13 @@ body {
 }
 
 .btn-minus {
-  background-image: url("images/icons/minus.svg");
+  background-image: url("../images/icons/minus.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .btn-plus {
-  background-image: url("images/icons/btn-plus.svg");
+  background-image: url("../images/icons/btn-plus.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -2081,7 +2081,7 @@ body {
 
 .control-input[type="checkbox"]:checked + .control-mark::before {
   content: "";
-  background-image: url("images/icons/checked.svg");
+  background-image: url("../images/icons/checked.svg");
   width: 10px;
   height: 10px;
   background-repeat: no-repeat;
@@ -2188,7 +2188,7 @@ body {
 
 .product-card:nth-child(2):after {
   content: "";
-  background-image: url("images/icons/product-new.svg");
+  background-image: url("../images/icons/product-new.svg");
   background-repeat: no-repeat;
   width: 60px;
   height: 60px;
