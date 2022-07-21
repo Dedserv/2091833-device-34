@@ -263,7 +263,7 @@ body {
   height: 50px;
   transform: translateX(10%);
   border-radius: 50%;
-  background-image: url(images/icons/plus.svg);
+  background-image: url("images/icons/plus.svg");
   background-repeat: no-repeat;
   background-position: center;
   border: 2px solid #000000;
@@ -281,7 +281,7 @@ body {
 }
 
 .button-catalog-li:focus-within .button-catalog::after {
-  background-image: url(images/icons/minus.svg);
+  background-image: url("images/icons/minus.svg");
   filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
 }
 
@@ -412,7 +412,7 @@ body {
 }
 
 .cart-wrap-product::before {
-  background-image: url(images/icons/close.svg);
+  background-image: url("images/icons/close.svg");
   width: 10px;
   height: 10px;
   content: "";
@@ -1065,7 +1065,7 @@ body {
   background-color: #ffe17f;
   width: 125px;
   height: 100px;
-  background-image: url(images/delivery-car.svg);
+  background-image: url("images/delivery-car.svg");
   background-size: 47px 31px;
   background-repeat: no-repeat;
   background-position: center;
@@ -1327,7 +1327,7 @@ body {
 .mailing-free::before {
   content: "";
   background-repeat: no-repeat;
-  background-image: url(images/icons/free-tick.svg);
+  background-image: url("images/icons/free-tick.svg");
   width: 14px;
   height: 14px;
   position: absolute;
@@ -1587,7 +1587,7 @@ body {
 
 .btn-close {
   position: absolute;
-  background-image: url(images/icons/close-btn.svg);
+  background-image: url("images/icons/close-btn.svg");
   width: 26px;
   height: 26px;
   content: "";
@@ -1721,13 +1721,13 @@ body {
 }
 
 .btn-minus {
-  background-image: url(images/icons/minus.svg);
+  background-image: url("images/icons/minus.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .btn-plus {
-  background-image: url(images/icons/btn-plus.svg);
+  background-image: url("images/icons/btn-plus.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
